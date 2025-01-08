@@ -4,7 +4,7 @@ html, body {
 } 
 
 * {
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     overflow: hidden;
 }
 
@@ -34,7 +34,7 @@ input:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background-image: url("ok.png")*/
+    background-image: url("green.png")
 }
 
 #image {
@@ -50,9 +50,14 @@ input:focus {
 #text {
     height: 35vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
+}
+
+#text1 {
+    margin-top: 10rem;
 }
 
 .paragraph {
